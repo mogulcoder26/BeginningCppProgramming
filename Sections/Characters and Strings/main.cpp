@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include <string.h>
 using namespace std;
 int main() {
     // C-style/null-terminated strings.
@@ -23,7 +24,7 @@ int main() {
     // Assigning to character array.
     char str [10];
     // str = "Hello"; // Can't assign to a character array.
-    strcpy_s(str, "Hello");
+    strcpy(str, "Hello");
 
     // C++ strings.
     string s1; // Empty string.

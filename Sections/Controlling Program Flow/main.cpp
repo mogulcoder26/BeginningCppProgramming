@@ -108,7 +108,7 @@ int main() {
     cout << "Two loop variables:" << endl;
     for(int i {1}, j {4}; i < 5; i++, j--) { // Variables declared in the loop/body are local to the loop.
         cout << "[i]: " << i << " [j]: " << j << "\t\t";
-    }
+     }
     cout << endl;
 
     cout << "Loop through array:" << endl;

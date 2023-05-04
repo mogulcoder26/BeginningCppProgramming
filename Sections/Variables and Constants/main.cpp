@@ -98,7 +98,7 @@ int main() {
     // months_in_year = 13; // Compile time error.
     cout << "#define constant: " << days_in_year << endl;
 
-    cout << "Hell"
+    cout << "Hell";
 
     return 0;
 }
